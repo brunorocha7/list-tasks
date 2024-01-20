@@ -14,24 +14,25 @@ Considerando que já tenha um ambiente para rodar php (como o xampp), siga as et
 ## Página inicial
 
 
-![alt text](app/resources/images/home.png)
+![alt text](https://github.com/brunorocha7/list-tasks/blob/main/resources/images/home.png)
 
 
 ## Cadastrar tarefa
 
 
-![alt text](app/resources/images/create.png)
-![alt text](app/resources/images/created.png)
+![alt text](https://github.com/brunorocha7/list-tasks/blob/main/resources/images/create.png)
+![alt text](https://github.com/brunorocha7/list-tasks/blob/main/resources/images/created.png)
 
-## Cadastrar tarefa no Postman
+## API - Cadastrar tarefa no Postman
 
-![alt text](app/resources/images/postman_created.png)
+![alt text](https://github.com/brunorocha7/list-tasks/blob/main/resources/images/postman_created.png)
 
+## Tabela de endpoints
 
 | Ação | Método | Endpoint | Parâmetros |
 | ------ | ------ |------ | ------ |
-| Listar | GET | [http://127.0.0.1:8001/api/tarefas][PlDb] |
-| Buscar | GET | [http://127.0.0.1:8001/api/tarefas/{id}][PlMe] |
-| Inserir | POST | [http://127.0.0.1:8001/api/tarefas][PlGh] | nome, descricao, status |
-| Atualizar | PUT | [http://127.0.0.1:8001/api/tarefas/{id}][PlGd] | nome, descricao, status |
-| Deletar | DELETE | [http://127.0.0.1:8001/api/tarefas/{id}][PlOd] |
+| Listar | GET | [http://127.0.0.1:8001/api/tarefas] |
+| Buscar | GET | [http://127.0.0.1:8001/api/tarefas/{id}] |
+| Inserir | POST | [http://127.0.0.1:8001/api/tarefas] | nome, descricao, status |
+| Atualizar | PUT | [http://127.0.0.1:8001/api/tarefas/{id}] | nome, descricao, status |
+| Deletar | DELETE | [http://127.0.0.1:8001/api/tarefas/{id}] |
